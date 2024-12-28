@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h2>About Me</h2>
+        <p>This page contains information about Manish Pandey.</p>
+
+        <!-- Social Media Links -->
+        <p align="center">
+            <a href="https://linkedin.com/in/hmpmanish/" target="_blank">
+                <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+            </a>
+            <a href="https://x.com/hmpmanish" target="_blank">
+                <img src="https://img.shields.io/badge/Twitter-Follow%20me-black?style=for-the-badge&logo=twitter" alt="Twitter" />
+            </a>
+            <a href="https://www.instagram.com/hmpmanish/" target="_blank">
+                <img src="https://img.shields.io/badge/Instagram-Follow-pink?style=for-the-badge&logo=instagram" alt="Instagram" />
+            </a>
+        </p>
+    </main>
+    <footer>
+        <p>© 2024 Manish Pandey | hmpmanish</p>
+    </footer>
+</body>
+</html>
