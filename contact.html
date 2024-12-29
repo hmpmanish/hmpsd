@@ -3,36 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Contact - Manish Pandey</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Contact</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+        <div class="container">
+            <h1>Manish Pandey</h1>
+            <p>Web Developer | Designer | Software Engineer</p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="awards.html">Awards</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <h2>Contact Me</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <br>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <br>
-            <button type="submit">Send</button>
-        </form>
-    </main>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you have any questions or would like to discuss potential projects, feel free to reach out to me!</p>
+            <form action="submit-form.php" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
     <footer>
-        <p>© 2024 Manish Pandey | hmpmanish</p>
+        <div class="container">
+            <p>Connect with me:</p>
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/hmpmanish" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/hmpmanish" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/hmpmanish" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/hmpmanish" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+            <p>Email: <a href="mailto:hmpmanish@gmail.com">hmpmanish@gmail.com</a></p>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
